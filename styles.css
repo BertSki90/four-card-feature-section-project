@@ -112,7 +112,7 @@ h2 {
 .container--card-content {
     display: flex;
     flex-direction: column;
-    margin: 32px 32px 51px;
+    margin: 32px 32px 0px;
 }
 
 /* |||| CARD |||| */
@@ -120,7 +120,7 @@ h2 {
     border-radius: 8px;
     background-color: var(--white);
     box-shadow: 0px 15px 30px -20px var(--grey-400);
-    margin: 32px 0;
+    margin: 16px 0;
     max-width: 314px;
 }
 
@@ -149,4 +149,40 @@ hr {
 .card img {
     align-self: end;
     margin: 32px 0 51px;
+    /* margin-top: 32px; */
+}
+
+/* |||| MEDIA QUERRIES - screen sizes |||| */
+
+/* TABLET */
+
+@media screen and (min-width: 660px) {
+    /* text */
+    
+    h1 {
+        font-size: var(--font-lg);
+        text-align: center;
+    }
+
+    /* containers */
+
+    .container {
+        padding: 56px 0px 46px;
+    }
+    
+    .container--title {
+        max-width: 540px;
+    }
+
+    .container--cards {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container--middle-cards {
+        display: flex;
+        gap: 32px;
+
+    }
 }
