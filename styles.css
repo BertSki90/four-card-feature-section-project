@@ -48,9 +48,13 @@ html {
     font-size: 15px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     object-fit: contain;
-    /* width: 100%;  */ /*did not work, find resources for learning.*/
     max-width: 100%;
 }
 
@@ -101,26 +105,26 @@ h2 {
 
 .container--title {
     margin: 0 auto 72px;
+    width: 100%;
+    max-width: 315px;
 }
 
 .container--card-content {
     display: flex;
     flex-direction: column;
-    margin: 32px;
+    margin: 32px 32px 51px;
 }
 
 /* |||| CARD |||| */
-/* working on the box shadow */
 .card {
     border-radius: 8px;
-    box-shadow: 0px 5px 15px 0px;
-    /* border-top: 4px solid red; */
-    height: 250px;
+    background-color: var(--white);
+    box-shadow: 0px 15px 30px -20px var(--grey-400);
     margin: 32px 0;
-    width: 314px;
+    max-width: 314px;
 }
 
-.highlight-card-tab {
+hr {
     border: none;
     border-radius: 8px 8px 0 0;
     height: 4px;
@@ -144,5 +148,5 @@ h2 {
 
 .card img {
     align-self: end;
-    margin-top: 32px;
+    margin: 32px 0 51px;
 }
