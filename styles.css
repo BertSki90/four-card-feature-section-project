@@ -151,6 +151,15 @@ hr {
     margin: 32px 0 51px;
 }
 
+/* |||| FOOTER |||| */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 25px;
+}
+
 /* |||| MEDIA QUERRIES - screen sizes |||| */
 
 /* TABLET */
