@@ -109,19 +109,13 @@ h2 {
     max-width: 315px;
 }
 
-.container--card-content {
-    display: flex;
-    flex-direction: column;
-    margin: 32px 32px 0px;
-}
-
 /* |||| CARD |||| */
 .card {
     border-radius: 8px;
     background-color: var(--white);
     box-shadow: 0px 15px 30px -20px var(--grey-400);
     margin: 16px 0;
-    max-width: 314px;
+    /* max-width: 314px; */
 }
 
 hr {
@@ -146,10 +140,16 @@ hr {
     background-color: var(--orange);
 }
 
+.container--card-content {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 32px 0px;
+    max-width: 250px;
+}
+
 .card img {
     align-self: end;
     margin: 32px 0 51px;
-    /* margin-top: 32px; */
 }
 
 /* |||| MEDIA QUERRIES - screen sizes |||| */
@@ -157,6 +157,7 @@ hr {
 /* TABLET */
 
 @media screen and (min-width: 660px) {
+    
     /* text */
     
     h1 {
@@ -184,5 +185,28 @@ hr {
         display: flex;
         gap: 32px;
 
+    }
+}
+
+/* DESKTOP */
+/* need to touch up texts, margins, and paddings units for desktop. */
+
+@media screen and (min-width: 1114px) {
+    
+    /* containers */
+
+    .container--cards {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .container--middle-cards {
+        flex-direction: column;
+    }
+
+    /* card */
+
+    .container--card-content {
+        max-width: 286px;
     }
 }
