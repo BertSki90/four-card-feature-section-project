@@ -115,7 +115,6 @@ h2 {
     background-color: var(--white);
     box-shadow: 0px 15px 30px -20px var(--grey-400);
     margin: 16px 0;
-    /* max-width: 314px; */
 }
 
 hr {
@@ -189,7 +188,6 @@ hr {
 }
 
 /* DESKTOP */
-/* need to touch up texts, margins, and paddings units for desktop. */
 
 @media screen and (min-width: 1114px) {
     
