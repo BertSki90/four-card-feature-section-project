@@ -109,7 +109,7 @@ h2 {
     max-width: 315px;
 }
 
-/* |||| CARD |||| */
+/* |||| CARDS |||| */
 .card {
     border-radius: 8px;
     background-color: var(--white);
@@ -200,6 +200,10 @@ footer {
 @media screen and (min-width: 1114px) {
     
     /* containers */
+
+    .container {
+        margin-top: 102px;
+    }
 
     .container--cards {
         flex-direction: row;
