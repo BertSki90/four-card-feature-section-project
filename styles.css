@@ -5,23 +5,20 @@
 /* ROOTS */
 :root {
     /* colors */
+    --blue: rgb(84, 158, 242);
+    --cyan: rgb(68, 211, 210);
     --grey-500: rgb(77, 79, 98);
     --grey-400: rgb(106, 113, 120);
-    --white: rgb(255, 255, 255);
-    --red: rgb(234, 84, 84);
-    --cyan: rgb(68, 211, 210);
-    --blue: rgb(84, 158, 242);
     --orange: rgb(252, 174, 74);
+    --red: rgb(234, 84, 84);
+    --white: rgb(255, 255, 255);
 
     /* font sizes */
-    --font-lg: 36px;
-    --font-md: 30px;
-    --font-sm: 15px;
-    --font-xs: 13px;
-    /* mobile font sizes */
-    --font-mobile-xl: 24px;
-    --font-mobile-lg: 20px;
-    --font-mobile-md: 15px;
+    --font-xxl: 2.4rem;
+    --font-xl: 1.6rem;
+    --font-lg: 1.333rem;
+    --font-md: 1rem;
+    --font-xs: 0.866rem;
 
     /* font weights */
     --weight-heavy: 600;
@@ -62,11 +59,13 @@ img {
 
 h1 {
     color: var(--grey-500);
-    font-size: var(--font-mobile-xl);
+    font-size: var(--font-xl);
     font-weight: var(--weight-heavy);
-    letter-spacing: 0.25px;
+    /* letter-spacing: 0.25px; */
+    letter-spacing: 0.0104em;
     line-height: var(--line-h-title);
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
+    margin-bottom: 0.666em;
 }
 
 span {
@@ -75,15 +74,16 @@ span {
 
 .description {
     color: var(--grey-500);
-    font-size: var(--font-mobile-md);
-    letter-spacing: 0.1px;
+    font-size: var(--font-md);
+    /* letter-spacing: 0.1px; */
+    letter-spacing: 0.006em;
     line-height: var(--line-h-title);
     text-align: center;
 }
 
 h2 {
     color: var(--grey-500);
-    font-size: var(--font-mobile-lg);
+    font-size: var(--font-lg);
     font-weight: var(--weight-heavy);
     line-height: 135%;
 }
@@ -91,9 +91,11 @@ h2 {
 .card p {
     color: var(--grey-400);
     font-size: var(--font-xs);
-    letter-spacing: 0.09px;
+    /* letter-spacing: 0.09px; */
+    letter-spacing: 0.007em;
     line-height: 160%;
-    margin-top: 6px;
+    /* margin-top: 6px; */
+    margin-top: 0.4615em;
 }
 
 /*|||| CONTAINERS |||| */
@@ -111,6 +113,7 @@ h2 {
 
 .container--middle-cards {
     display: flex;
+    flex-direction: column;
     gap: 16px;
 }
 
@@ -118,8 +121,7 @@ h2 {
 .card {
     border-radius: 8px;
     background-color: var(--white);
-    box-shadow: 0px 15px 30px -20px var(--grey-400);
-    /* margin: 16px 0; */
+    box-shadow: 0px 15px 30px -20px var(--blue);
     margin: 0 0 16px;
 }
 
@@ -175,7 +177,7 @@ footer {
     /* text */
     
     h1 {
-        font-size: var(--font-lg);
+        font-size: var(--font-xxl);
         text-align: center;
     }
 
@@ -197,7 +199,7 @@ footer {
 
     .container--middle-cards {
         display: flex;
-        /* gap: 32px; */
+        flex-direction: row;
     }
 }
 
@@ -208,7 +210,6 @@ footer {
     /* containers */
 
     .container {
-        /* margin-top: 102px; 102 - 56 = 46 */
         margin-top: 46px;
     }
 
