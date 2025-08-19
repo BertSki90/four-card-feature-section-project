@@ -81,7 +81,7 @@ I had the oppertunity to practice with box-shadow. The box-shadow property accep
 
 ### Continued development
 
-Completion Time: 6:03
+Completion Time: 7hrs
 
 I am getting more practice with rem and em units. I am trying to utilize the margin-line-start/end and margin-block-start-end and inline-size/max-inline-size properties. It is a lot of information that I enjoy putting to use. Thank you!
 
