@@ -26,7 +26,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+HTML
+![](screenshots/html/screenshot-four-card-feature-section-html-1.png)
+![](screenshots/html/screenshot-four-card-feature-section-html-2.png)
+![](screenshots/html/screenshot-four-card-feature-section-html-3.png)
+
+CSS
+![](screenshots/css/screenshot-four-card-feature-section-css-1.png)
+![](screenshots/css/screenshot-four-card-feature-section-css-2.png)
+![](screenshots/css/screenshot-four-card-feature-section-css-3.png)
+![](screenshots/css/screenshot-four-card-feature-section-css-4.png)
+![](screenshots/css/screenshot-four-card-feature-section-css-5.png)
+![](screenshots/css/screenshot-four-card-feature-section-css-6.png)
+![](screenshots/css/screenshot-four-card-feature-section-css-7.png)
 
 ### Links
 
