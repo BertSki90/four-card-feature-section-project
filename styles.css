@@ -205,10 +205,10 @@ footer {
     /* text */
 
     h1 {
-        /* margin-bottom: 0.666em; */
-        /* margin-block-end: 0.666em; */
-        margin-bottom: 0.566em;
-        margin-block-end: 0.566em;
+        margin-bottom: 0.466em;
+        margin-block-end: 0.466em;
+        /* margin-bottom: 0.566em; */
+        /* margin-block-end: 0.566em; */
     }
     
     /* containers */
